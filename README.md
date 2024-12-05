@@ -28,30 +28,31 @@
 
 ### Set Up Docker
 - Make New Folder
- - `mkdir bird`
- - `cd bird`
+ `mkdir bird`
+ `cd bird`
 - Clone this repository
-  - `git clone https://github.com/hamdansyaif/birdy.git`
+  `git clone https://github.com/hamdansyaif/birdy.git`
 - Open the folder you just cloned
- - `cd birdy`
+  `cd birdy`
 - Make file named 'Dockerfile' without any extension
- - `sudo nano Dockerfile`
+  `sudo nano Dockerfile`
 - Type this
-  ```FROM node:16-alpine
+  ```
+  FROM node:16-alpine
   WORKDIR /app
   COPY package* .
   RUN npm install
   COPY . .
   CMD ["npm", "start"].
   - Save it
-  - `Ctrl + X`
-  - `Y`
+    `Ctrl + X`
+    `Y`
 - Build docker
- - `docker build -t reactjs/birdy:1.0.0 .`
+ `docker build -t reactjs/birdy:1.0.0 .`
 - Run the docker
- - `docker run -d -p 5000:5000 reactjs/birdy:1.0.0.0`
+ `docker run -d -p 5000:5000 reactjs/birdy:1.0.0.0`
 - Open in browser
- - http://localhost:5000/
+ http://localhost:5000/
 
 ###Succeed you should see like this:
 <div>
