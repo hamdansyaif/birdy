@@ -37,13 +37,13 @@
 - Make file named 'Dockerfile' without any extension
  - `sudo nano Dockerfile`
 - Type this
-  -`FROM node:16-alpine`
-    `WORKDIR /app`
-    `COPY package* .`
-    `RUN npm install`
-    `COPY . .`
-    `CMD ["npm", "start"].`
-  Save it
+  ```FROM node:16-alpine
+  WORKDIR /app
+  COPY package* .
+  RUN npm install
+  COPY . .
+  CMD ["npm", "start"].
+  - Save it
   - `Ctrl + X`
   - `Y`
 - Build docker
