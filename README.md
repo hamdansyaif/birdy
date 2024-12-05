@@ -44,9 +44,9 @@
   RUN npm install
   COPY . .
   CMD ["npm", "start"].
-  - Save it
-    `Ctrl + X`
-    `Y`
+- Save it
+  `Ctrl + X`
+  `Y`
 - Build docker
  `docker build -t reactjs/birdy:1.0.0 .`
 - Run the docker
