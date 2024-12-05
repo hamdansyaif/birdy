@@ -79,8 +79,9 @@ docker run -d -p 5000:5000 reactjs/birdy:1.0.0
 ### 9. Open the Application in Your Browser
 Go to [http://localhost:5000](http://localhost:5000).
 ```
+
 ```
-###Succeed you should see like this:
+### Succeed you should see like this:
 <div>
 <img width="338" alt="Screen Shot 2022-12-29 at 5 06 29 PM" src="https://user-images.githubusercontent.com/36496209/210019678-611e9c55-03b8-4cc5-b038-2c14d08c43d4.png">
 <img width="332" alt="Screen Shot 2022-12-29 at 5 06 14 PM" src="https://user-images.githubusercontent.com/36496209/210019653-93e75410-0723-43d9-91d4-c54ce82bd2fa.png">
