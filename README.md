@@ -26,7 +26,7 @@
     └── index.js
 ``` 
 
-###Follow the steps below to set up Docker for the Birdy project.
+### Follow the steps below to set up Docker for the Birdy project.
 
 ### 1. Make a New Folder
 ```bash
