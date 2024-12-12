@@ -140,7 +140,7 @@ sudo nano Dockerfile
 FROM node:16-alpine
 
 WORKDIR /app
-COPY package* .
+COPY package* /app/
 
 RUN npm install
 
